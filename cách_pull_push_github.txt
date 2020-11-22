@@ -1,0 +1,18 @@
+đầu tiên anh em down về như bình thường
+sau đó chỉnh sửa các nội dung trong file
+sau khi làm xong anh em mở git bash ở trong file
+gõ: 
+	git add . 
+sau đó:
+	git commit -m "nội dung tùy chọn"
+sau đó:
+	git tag tagtuychon
+lưu ý tagtuychon là tên tag của mình, lỡ có lỗi thì có enh em khác mò tên tag ra fix.
+để push code anh em chỉ cần gõ:
+	git push origin master
+sau đó push tên tag lên
+	git push origin tagtuychon
+sau lần đầu download file, nếu muốn update file nhanh mà không cần download lại anh em chỉ cần gõ:
+	git pull
+
+còn thăng mô chưa dùng github bao giờ thì quên đê :))).....
