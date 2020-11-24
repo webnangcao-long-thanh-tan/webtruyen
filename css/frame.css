@@ -5,6 +5,7 @@
 	grid-template-rows: auto auto auto; 
 }
 .container .header{
+    z-index: 9999;
 	position: relative;
 	grid-column: span 12;
 	margin-bottom: 10px;
@@ -90,6 +91,7 @@
 
 }
 .container .header .navigation .nav ul{
+    z-index: 9999;
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
 	width: auto;
@@ -98,7 +100,7 @@
 .container  .header .navigation .nav ul li {
 	font-size: 24px;
 	padding: 5px;
-	
+	z-index: 9999;
 	border-left: 1px solid #3e6eab;
         border-right: 1px solid #3e6eab;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -108,9 +110,11 @@
  	vertical-align: middle;	
 }
 .container .header .navigation .nav ul li:hover{
+    z-index: 9999;
 	background-color: #3e6eab;
 }
 .container .header .navigation .nav ul li a{
+    z-index: 9999;
 	text-decoration: none;
 	color: black;
 }
@@ -132,7 +136,7 @@
 .container .navigation .nav ul li .broad li{
 	display: inline-block;
 	box-sizing: border-box;
-	
+	z-index: 9999;
 	width: 50%;
 	background-color: white;
 }

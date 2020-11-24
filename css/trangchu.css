@@ -9,15 +9,27 @@ and open the template in the editor.
 */
 .main{
     width: 100%;
-    height:1500px;
+    height:2300px;
     margin:auto;
-
+/*    z-index: -1;*/
     
     
 }
 .main #listsp{
     clear: both;
     width: 100%;
+    height: 70%;
+}
+.main #listsp .decu{
+    float: top;
+    
+}
+.main #listsp .hot{
+    margin-top: 1000px
+   
+}
+.main #listsp h2{
+    padding-left: 10px;
 }
 .main #listsp ul{
     list-style: none;
@@ -28,9 +40,9 @@ and open the template in the editor.
     right:-5%;
     float: left;
     width: 180px;
-    height: 400px;
+    height: 330px;
     padding:7px;
-    text-align: center;
+    text-align: left;
     position: relative;
     boder: 1px #0000FF solid;
     margin: 2px;
@@ -42,9 +54,22 @@ and open the template in the editor.
 }
 .main #listsp ul li img{
     width: 120px;
-    height: 160px;
+    height: 120px;
     padding: 35px 10px;
     z-index: 1;
+    margin-left: 20px
+}
+.main #listsp ul li h6{
+    
+    font-family: arial;
+    float: top;
+    word-break: break-all
+}
+.main #listsp ul li h8{
+    float:bottom;
+    margin-bottom: 5px;
+    position: relative;
+    padding-right: 6px
 }
 .main #listsp ul li #km{
     position: absolute;
