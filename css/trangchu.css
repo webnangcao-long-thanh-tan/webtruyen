@@ -9,24 +9,115 @@ and open the template in the editor.
 */
 .main{
     width: 100%;
-    height:2300px;
+    height:2530px;
     margin:auto;
+    
 /*    z-index: -1;*/
     
     
 }
-.main #listsp{
-    clear: both;
+main #right{
+    
+    background:gray;
+            float: right;
+            height:99%;
+            width:28.5%;
+            margin-top: 5px;
+            margin-right: 5px;
+            
+            position: relative
+}
+.main #right #hotright{
+    margin-top:20px;
+            margin-left: 10px;
+            width:95%;
+            height:50%;
+            
+            overflow: scroll;
+            float: left;
+            background-color:gray
+}
+.main #right #hotright .kcl{
     width: 100%;
-    height: 70%;
+    height: 105px;
+    margin-top:10px;
+            margin-left: 10px;
+            padding-bottom: 10px
+}
+#anhleft{
+    height: 100px;
+            width: 80px;
+            float:left;
+            position: relative;
+            border: solid white 2px;
+            position: relative;
+            transition: all 1s ease;
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            position: relative;
+}
+#anhleft:hover{
+            transform: scale(1.1,1.1);
+            -webkit-transform: scale(1.1,1.1);
+            -moz-transform: scale(1.1,1.1);
+            -o-transform: scale(1.1,1.1);
+            -ms-transform: scale(1.1,1.1);
+        }
+        .ctleft{margin:0;
+            padding-left: 90px;
+            padding-right: 10px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            text-align: justify;}
+        .tieude1{
+    
+    margin-top:10px;
+    
+
+    }
+    k{
+    
+         animation-name:chay;
+         animation-duration: 7s;
+         animation-delay: 0.5s;
+         animation-iteration-count: infinite;
+            color:#333;
+        }
+        @keyframes chay{
+            20% {
+                color: yellow
+            }
+            80% {
+                color: yellowgreen
+            }
+            
+            80% {
+                color: mediumvioletred
+            }
+            
+            20% {
+                color: red
+            }
+    }
+.main #listsp{
+    float: left;
+    margin-left: 6px;
+    position: relative;
+
+    width: 70%;
+    height: 2200px;
+    background: gray;
 }
 .main #listsp .decu{
-    float: top;
-    
+    padding: 8px;
+    margin-top: 10px;
 }
 .main #listsp .hot{
-    margin-top: 1000px
-   
+    float: left;
+    padding: 8px;
+    margin-top: 100px;
+    position: relative
 }
 .main #listsp h2{
     padding-left: 10px;
@@ -37,16 +128,16 @@ and open the template in the editor.
     padding-left: 8px;
 }
 .main #listsp ul li{
+    
     right:-5%;
     float: left;
     width: 180px;
-    height: 330px;
+    height: 300px;
     padding:7px;
     text-align: left;
     position: relative;
-    boder: 1px #0000FF solid;
     margin: 2px;
-    background-color: white
+    background-color: lightgray
 }
 .main #listsp ul li a{
     text-decoration: none;
@@ -99,4 +190,95 @@ and open the template in the editor.
             -o-transform: scale(1.5,1.5);
             -ms-transform: scale(1.5,1.5);
 }
+ .carousel-wrapper{
+     margin-bottom: 5px;
+     margin-top: 5px;
+            margin-left: 6px;
+            float: left;
+            height:300px;
+            position:relative;
+            width:70%;
+            
+          }
+          .carousel-item{
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            padding-top:200px;
+            padding-left:20px;
+            padding-bottom: 10px;
+            color:white;
+            opacity:0;
+            transition: all 0.5s ease-in-out;
+          }
+          .arrow{
+            border: solid white;
+              border-width: 0 3px 3px 0;
+              display: inline-block;
+              padding: 10px;
+          }
+          
+          .arrow-prev{
+            left:25px;
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%) rotate(135deg);
+          }
+           
+          .arrow-next{
+              right:25px;
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%) rotate(-45deg);
+            }
+          
+          .light{
+            color:white;
+          }
+          
+          @media (max-width: 480px) {
+                .arrow, .light .arrow {
+                  background-size: 10px;
+                  background-position: 10px 50%;
+                }
+              }
+          [id^="item"] {
+              display: none;
+            }
+          
+          .item-1 {
+              z-index: 2;
+              opacity: 1;
+              max-height: 100%;
+              max-width: 100%;
+            background:url('4.jpg');
+            background-size:cover;
+            }
+          .item-2{
+              max-height: 100%;
+              max-width: 100%;
+            background:url('5.jpg');
+             background-size:cover;
+          }
+          .item-3{
+              max-height: 100%;
+              max-width: 100%;
+            background:url('6.jpg');
+             background-size:cover;
+          }
+          
+          *:target ~ .item-1 {
+              opacity: 0;
+            }
+          
+          #item-1:target ~ .item-1 {
+              opacity: 1;
+            }
+          
+          #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+              z-index: 3;
+              opacity: 1;
+            }
 

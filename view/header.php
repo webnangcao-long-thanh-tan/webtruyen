@@ -30,15 +30,27 @@
 			<div class="navigation">
 			<nav class="nav">
 				<ul id="nav__list">
-					<li><a href="../index/index.php">Đọc truyện tranh</a></li>
+					<li><a href="../index/index.php">Trang chủ</a></li>
 					<li id="type"><a href="#">Thể loại</a>
 						<div id="broad-type" class="broad">
 							<ul class="broad_list">
-								<li><a href="../comic_type/index.php">Thiếu nhi</a></li>
-								<li><a href="../comic_type/index.php">Trinh thám</a></li>
-								<li><a href="../comic_type/index.php">Hành động</a></li>
-								<li><a href="../comic_type/index.php">Manga</a></li>
-								<li><a href="../comic_type/index.php">Truyện ma</a></li>
+								<li><a href="../comic_type/index.php">Shōnen</a></li>
+								<li><a href="../comic_type/index.php">Shoujo</a></li>
+								<li><a href="../comic_type/index.php">Kodomo</a></li>
+								<li><a href="../comic_type/index.php">Seinen</a></li>
+								<li><a href="../comic_type/index.php">Josei</a></li>
+								<li><a href="../comic_type/index.php">Seijin</a></li>
+                                                                <li><a href="../comic_type/index.php">Thiếu nhi</a></li>
+								<li><a href="../comic_type/index.php">Shoujo-ai</a></li>
+								<li><a href="../comic_type/index.php">Doujinshi</a></li>
+								<li><a href="../comic_type/index.php">Gekiga</a></li>
+								<li><a href="../comic_type/index.php">Horror</a></li>
+								<li><a href="../comic_type/index.php">Martial arts</a></li>
+                                                                <li><a href="../comic_type/index.php">School life</a></li>
+								<li><a href="../comic_type/index.php">Comedy</a></li>
+								<li><a href="../comic_type/index.php">Ecchi</a></li>
+								<li><a href="../comic_type/index.php">Fantasy</a></li>
+								<li><a href="../comic_type/index.php">Adventure</a></li>
 								<li><a href="../comic_type/index.php">Xuyên không</a></li>
 							</ul>
 						</div>
@@ -56,7 +68,7 @@
 					<li><a href="../comic_new/index.php">Truyện mới</a></li>
 					<li><a href="../comic_login/index.php">Đăng nhập</a></li>
 
-					<li id="account"><img src="../images/account.png">
+<!--                                        <li id="account"><a href="">Tại khoản</a>
 						<div id="broad-account" class="broad">
 							<ul class="	broad_list"	>
 								<li><a href="../user_infor/index.php">Thông tin cá nhân</a></li>
@@ -64,7 +76,7 @@
 								<li><a href="#">Đăng xuất</a></li>
 							</ul>
 						</div>
-					</li>
+					</li>-->
 				</ul>
 			</nav>
 			</div>
