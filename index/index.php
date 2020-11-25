@@ -201,8 +201,8 @@
                 </li>
           </ul>
 </div>
-    <div  class="hot">
-    <h2 id="textdc">truyện hot</h2>
+    <div  class="moi">
+    <h2 id="textdc">truyện mới</h2>
     <ul>     <li><a href="#">
                         <img src="../images/truyen.jpg" title="J1 Mini" class="a" />
                     <br />
