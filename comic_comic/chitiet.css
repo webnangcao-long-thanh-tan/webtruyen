@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+}
+.z{
+    width: 60%;
+    height: 10px;
+    position: absolute;
+    left: 20%;
+}
+.note{
+    width: 100%;
+    height: 10px;
+    background: rgb(194, 236, 201);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 23px 0;
+    margin-bottom: 10px;
+    line-height: 10px;
+}
+.note>span{
+    margin-left: 20px;
+}
+.body{
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.chitiet{
+    width: 70%;
+    float: left;
+    border-radius: 5px;
+    border: rgb(185, 175, 175) 1px solid;
+}
+
+.chitiet1{
+    width: 100%;
+    height: 380px;
+}
+.img{
+    float: left;
+    margin:20px ;
+    width: 30%;
+    background: steelblue;
+    border: rgb(173, 172, 172) 1px solid;
+}
+img{
+    width: 100%;
+}
+.chinhsua{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 20px;
+}
+a{
+    text-decoration: none;
+    
+}
+.oda{
+    margin-left: 225px;
+    width: 70%;
+    height: 370px;
+    text-align: left;
+}
+.one{
+    size: 25px;
+}
+hr{
+    width: 93%;
+}
+.list{
+    width: 95%;
+    position: relative;
+    left: 13px;
+    height: 60px;
+    border-top: rgb(189, 182, 180) 1px solid;
+}
+.chuong1{
+    width: 100%;
+}
+.hr{
+    line-height: 30px;
+    width: 100%;
+    margin: 10px;
+    margin-top: 10px; 
+    color: rgb(37, 34, 33);
+}
+.chuong2{
+    width: 95%;
+    position: relative;
+    left: 13px;
+    height: 50px;
+    border-top: rgb(189, 182, 180) 1px solid;
+}
+.chuong2 a{
+    line-height: 30px;
+    width: 100%;
+    margin: 20px;
+    position: relative;
+    top: 10px;   
+    color:rgb(29, 118, 252);
+}
+.file{
+    width:350px;
+    margin-left: 7px;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(197, 231, 247);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.likea{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(4, 54, 221);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.chinhsua>span>a{
+    color: rgb(29, 118, 252);
+    font-size: 30px;
+}
+.chinhsua>span{
+    color: rgb(156, 156, 156);
+}
+.file>span{
+    color: rgb(10, 147, 182);
+    margin-left: 10px;
+    
+}
+#ha{
+    color: rgb(29, 118, 252);
+}
+.doc{
+    margin-top: 00px;
+    margin-left: 7px;
+    width: 100px;
+    padding: 2px;
+    height: 30px;
+    line-height: 30px;
+    background: rgb(253, 122, 15);
+    border-radius: 5px;
+}
+.doc>a{
+    color: white;
+    margin-left: 10px;
+}
+.trang{
+    margin-left: 30px;
+    width: auto;
+}
+.chontrang{
+    float: left;
+    line-height: 20px;
+    width: 20px;
+    padding: 3px;
+    height: 20px;
+    border: rgb(167, 161, 161) 1px solid;
+    border-left: 0px;
+    background: rgb(255, 255, 255);
+}
+#chontrang{
+    border-left:rgb(167, 161, 161) 1px solid;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: rgb(4, 146, 241);
+}
+#chontrang>a{
+    color: blanchedalmond;
+}
+#chontrang1{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-right: 10spx;
+}
+.chontrang>a{
+    color: rgb(29, 118, 252);
+    margin-left: 5px;
+}
+.thongtin{
+    margin-top: 50px;
+    width: 90%;
+    text-align: justify;
+    margin-left: 28px;
+}
+.slidebar{
+    width: 25%;
+    height: 500px;
+    float: right;
+    border-radius: 3px;
+}
+.zzz{
+    margin-left: 18px;
+}
+.danhngon{
+    width: 100%;
+    height: 220px;
+    border-radius: 3px;
+    border: rgb(206, 203, 209) 1px solid;
+}
+.danhngon1{
+    width: 100%;
+    height: 50px;
+    background: rgb(37, 107, 238);
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.danhngon1>p{
+    margin-left: 18px;
+}
+.danhngon2{
+    width: 80%;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    margin-left: 18px;
+}
+.danhmuc{
+    width: 100%;
+    height: 500px;
+    
+    margin-top: 50px;
+}
+.danhmuc1{
+    width: 99%;
+    height: 40px;
+    border-right: rgb(188, 201, 194) 1px solid;
+    border-left: rgb(188, 201, 194) 1px solid;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+.danhmuc1>a{
+    margin-left: 18px;
+    color: rgb(29, 118, 252);
+}
+#dm{
+    border-bottom: rgb(188, 201, 194) 1px solid ;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
