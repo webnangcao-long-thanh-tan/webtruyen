@@ -91,7 +91,7 @@
 <div class="decu">
     <h2 id="textdc">truyện đề cử</h2>
             <ul class="decu">
-                <li><a href="#">
+                <li><a href="../comic_comic/index.php">
                         <img src="../images/truyen.jpg" title="J1 Mini" class="a" />
                     <br />
                     <h6>DORAEMON</h6>

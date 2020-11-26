@@ -8,8 +8,9 @@ body{
     height: 10px;
     position: absolute;
     left: 20%;
+    background: white
 }
-.note{
+/*.note{
     width: 100%;
     height: 10px;
     background: rgb(194, 236, 201);
@@ -18,7 +19,7 @@ body{
     padding: 23px 0;
     margin-bottom: 10px;
     line-height: 10px;
-}
+}*/
 .note>span{
     margin-left: 20px;
 }
@@ -135,6 +136,7 @@ hr{
     
 }
 #ha{
+    margin-left: 14px;
     color: rgb(29, 118, 252);
 }
 .doc{
@@ -245,4 +247,58 @@ hr{
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
+#tnt_pagination{
+    margin-left: 100px;
+margin-bottom: 5px;
+display:inline-block;
+text-align:center;
+height:22px;
+line-height:21px;
+clear:both;
+padding-top:3px;
+font-family:Arial, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:12px;
+font-weight:normal;
+}
 
+#tnt_pagination a:link, #tnt_pagination a:visited{
+padding:7px;
+padding-top:2px;
+padding-bottom:2px;
+border:1px solid #EBEBEB;
+margin-left:10px;
+text-decoration:none;
+background-color:#F5F5F5;
+color:#0072bc;
+width:22px;
+font-weight:normal; 
+}
+
+#tnt_pagination a:hover{
+background-color:#DDEEFF;
+border:1px solid;
+color:#0072BC; 
+}
+
+#tnt_pagination .active_tnt_link{
+padding:7px;
+padding-top:2px;
+padding-bottom:2px;
+horder:1px solid #DDEEFF;
+margin-left:10px;
+text-decoration:none;
+background-color:#DDEEFF;
+color:#0072BC;
+cursor:defalt; 
+}
+#tnt_pagination .disabled_tnt_pagination{
+padding:7px;
+padding-top:2px;
+padding-bottom:2px;
+border:1px solid #EBEBEB;
+margin-left:10px;
+text-decoration:none;
+background-color:#FSFSFS;
+color:#D7D7DD7;
+cursor:default;
+}

@@ -1,5 +1,5 @@
 .container{
-    background: darkslategray;
+    background: whitesmoke;
     z-index: 9999;
 	display:grid;
 	grid-template-columns: repeat(12,1fr);
@@ -13,7 +13,7 @@
 }
 .container .main{
 	grid-column: span 12;
-	background-color: darkslategray;
+	background-color: white;
 }
 .container .footer{
 	grid-column: span 12;

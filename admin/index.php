@@ -33,7 +33,7 @@
 					<h4>Admin</h4>
 				</div>
 			</div>
-			<div id="navigation">
+                    <div id="navigation" style="overflow: hidden">
 				<ul>
 					<li><a href="#">Bảng điều khiển</a></li>
 					<li><a href="#">Thể loại</a></li>

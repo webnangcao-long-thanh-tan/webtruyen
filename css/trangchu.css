@@ -18,7 +18,7 @@ and open the template in the editor.
 }
 main #right{
     
-    background:gray;
+    background:white;
             float: right;
             height:99%;
             width:28.5%;
@@ -35,7 +35,7 @@ main #right{
             
             overflow: scroll;
             float: left;
-            background-color:gray
+            background-color:white
 }
 .main #right #hotright .kcl{
     width: 100%;
@@ -49,7 +49,7 @@ main #right{
             width: 80px;
             float:left;
             position: relative;
-            border: solid white 2px;
+            border: solid black 2px;
             position: relative;
             transition: all 1s ease;
             -webkit-transition: all 1s ease;
@@ -107,7 +107,8 @@ main #right{
 
     width: 70%;
     height: 2200px;
-    background: gray;
+    background: white;
+    border-right: 1px solid gray
 }
 .main #listsp .decu{
     padding: 8px;

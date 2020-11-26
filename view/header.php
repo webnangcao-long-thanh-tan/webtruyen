@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../css/frame.css">
 	<link rel="stylesheet" type="text/css" href="../css/login.css">
         <link rel="stylesheet" type="text/css" href="../css/trangchu.css">
+        <link rel="stylesheet" type="text/css" href="../css/chitiet.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
