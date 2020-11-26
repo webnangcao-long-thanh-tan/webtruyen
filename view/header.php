@@ -52,7 +52,7 @@
 								<li><a href="../comic_type/index.php">Ecchi</a></li>
 								<li><a href="../comic_type/index.php">Fantasy</a></li>
 								<li><a href="../comic_type/index.php">Adventure</a></li>
-								<li><a href="../comic_type/index.php">Xuyên không</a></li>
+								<li><a href="../comic_type/index.php">sci-fi</a></li>
 							</ul>
 						</div>
 					</li>

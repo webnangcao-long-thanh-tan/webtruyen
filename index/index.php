@@ -32,55 +32,55 @@
                     <div id="hotright">
                         <div class="kcl">
                             <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <div class="ctleft"><h4><a href="#" class="tieude">Naruto Shippuden</a></h4></br>
+                                <p>1562 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <a href="#"><img src="https://sachvui.com/cover/2018/one-piece-dao-hai-tac.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">OnePeace</a></h4></br>
+                                <p>2623 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <a href="#"><img src="../images/attack on titan.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">Attack on titan</a></h4></br>
+                                <p>785 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <a href="#"><img src="../images/hitman.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">Hitman</a></h4></br>
+                                <p>1003 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <a href="#"><img src="../images/getbackers.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">Getbackers</a></h4></br>
+                                <p>894 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <a href="#"><img src="../images/dragonbal.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">Dragonball Super</a></h4></br>
+                                <p>2012 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <a href="#"><img src="../images/avenger.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">Avenger</a></h4></br>
+                                <p>951 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
-                                <p>700 chaps</p>
+                            <a href="#"><img src="../images/onepunchman.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">One punch man</a></h4></br>
+                                <p>354 chaps</p>
                             </div>
                         </div>
                         <div class="kcl">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/></a>
-                            <div class="ctleft"><h4><a href="#" class="tieude">tieu de tieu de</a></h4></br>
+                            <a href="#"><img src="../images/justiceleague.jpg" alt="" id="anhleft"/></a>
+                            <div class="ctleft"><h4><a href="#" class="tieude">Justice League</a></h4></br>
                                 <p>700 chaps</p>
                             </div>
                         </div>
@@ -97,106 +97,106 @@
                     <h6>DORAEMON</h6>
                     
                     <h8>100 chap</h8>
-                    <span id="km">THIẾU NHI</span>
+                    <span id="km">HOT</span>
                     </a>
                 </li> 
                   <li><a href="#">
                           <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>NARUTO SHIPPUDEN</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>1562 chaps</h8>
+                    <span id="km">HOT</span>
+                    </a>
+                </li>
+                <li><a href="../comic_comic/index.php">
+                          <img src="https://sachvui.com/cover/2018/one-piece-dao-hai-tac.jpg" title="J1 Mini" class="a" />
+                    <br />
+                    <h6>ONEPEACE</h6>
+                    
+                    <h8>2623 chaps</h8>
+                    <span id="km">HOT</span>
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/hitman.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>HITMAN</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>1003 chaps</h8>
+                    <span id="km">HOT</span>
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/dragonquest.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>DRAGONQUEST</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>895 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/inuyasha.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>INUYASHA</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>1626 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/shin.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>SHIN</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>895 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/heroacamedia.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>HERO ACAMEDIA</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>743 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                          <img src="../images/boruto.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>BORUTO</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>658 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/gintama.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>GINTAMA</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>321 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/kimetsu no yaiba.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>KIMETSU NO YAIBA</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>987 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
                 <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
+                        <img src="../images/the gamer.jpg" title="J1 Mini" class="a" />
                     <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
+                    <h6>THE GAMER</h6>
                     
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
-                    </a>
-                </li>
-                <li><a href="#">
-                          <img src="../images/naruto.jpg" title="J1 Mini" class="a" />
-                    <br />
-                    <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
-                    
-                    <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <h8>156 chaps</h8>
+<!--                    <span id="km">HÀNH ĐỘNG</span>-->
                     </a>
                 </li>
           </ul>
@@ -209,7 +209,7 @@
                     <h6>DORAEMON</h6>
                     
                     <h8>100 CHAPS</h8>
-                    <span id="km">THIẾU NHI</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li> 
                   <li><a href="#">
@@ -218,7 +218,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -227,7 +227,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -236,7 +236,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -245,7 +245,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -254,7 +254,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -263,7 +263,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -272,7 +272,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -281,7 +281,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -290,7 +290,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -299,7 +299,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
                 <li><a href="#">
@@ -308,7 +308,7 @@
                     <h6>NARUTO SHIPPUDENpppppádasjnijdnvisudnfisjdnvi</h6>
                     
                     <h8>700 chaps</h8>
-                    <span id="km">HÀNH ĐỘNG</span>
+                    <span id="km">NEW</span>
                     </a>
                 </li>
           </ul>
