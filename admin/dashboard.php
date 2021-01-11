@@ -35,7 +35,7 @@
             <a class="nav-link" href="xulydanhmuc.php">Danh mục menu</a>
         </li>-->
         <li class="nav-item">
-            <a class="nav-link" href="xulysanpham.php">Truyện</a>
+            <a class="nav-link" href="xulytruyen.php">Truyện</a>
         </li>
         <li class="nav-item">
             <a class="nav-link disabled" href="xulykhachhang.php">Thành viên</a>
