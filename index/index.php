@@ -1,5 +1,20 @@
-<?php include('../view/header.php') ?>
+<?php 
+session_start();
+include_once '../model/ket_noi.php';
+if(isset($_GET['quanly'])){
+    $dn = 1;
+}
+else 
+    $dn = 0;
+include('../view/header.php') ?>
 		<main>
+                    <?php
+                       if($dn == 1){
+                           echo 'dang nhap thanh cong';
+                       }
+                       else
+                           echo 'chua dang nhap';
+                    ?>
                     <h3 class="tieudetruyenhot">
                         Truyện Hot
                     </h3>
@@ -58,6 +73,7 @@
                 
    
   </section>
+                    
                     <h3 class="tieudetruyenmoi">
                         
                     </h3>
