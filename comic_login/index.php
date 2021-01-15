@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once '../model/ket_noi.php';
 ?>
 <?php
@@ -44,6 +45,7 @@ if (isset($_POST['login'])) {
             $rowthanhvien = mysqli_fetch_array($sqlselectthanhvien);
             $_SESSION['login'] = $namedk;
             $_SESSION['Id_tv'] = $rowthanhvien['Id_tv'];
+            header('location:../index/index.php?quanly=dangnhap');
         } else {
             echo '<script>alert("Lỗi")</script>';
         }

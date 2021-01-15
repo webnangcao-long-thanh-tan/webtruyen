@@ -88,3 +88,28 @@ main .slick-prev:before,
         background: black;
         opacity: 0.2;
     }
+    .tinhtranhdangnhap{
+        width: 100%;
+        float: right;
+        padding: 30px 20px 0 0;
+    }
+    .tttv{
+        float: right;
+        text-align: center;
+        
+    }
+    .tttv form{
+        
+        display: flex;
+        text-align: center;
+        justify-content: space-between
+    }
+    .infoprofile{
+        text-align: center;
+    }
+    .infoprofile input{
+        height: 50px;
+        width: 50px;
+        background: url(../images/account.png);
+            background-repeat: no-repeat;
+    }

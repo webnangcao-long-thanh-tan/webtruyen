@@ -75,38 +75,7 @@
                         </div>
                     </div>
                 </div>
-                <section class="regular slider">
-                    <div class="itemheadslider">
-                        <h1 class="welcome">Welcome to</h1><br/>
-                        <h1 class="title">TRUYENTRANH.COM <span style="color: #c3a281">WEBSITE</span></h1><br/>
-                        <p class="content">LOREM IPSUM DOLOR SIT AMETIPSUM DOLOR SIT</p>
-                        <form class="buttonheadslider">
-                            <input type="submit" value="READ MORE +">
-                            <input type="submit" value="BUY NOW >">
-                        </form>
-                    </div>
-                    <div class="itemheadslider itemslider2" >
-
-                        <img src="../images/slidebg1.png" alt=""/>
-                    </div>
-                    <div class="itemheadslider itemslider3" style="background: red">
-                        <img src="../images/navbg2 (3).png" alt=""/>
-
-                    </div>  
-
-                    <!--    <div class="slide1 item">
-                                <h1 class="welcome">Welcome to</h1><br/>
-                                <p class="title">AC BREAD WEBSITE</p><br/>
-                                <p class="content">LOREM IPSUM DOLOR SIT AMETIPSUM DOLOR SIT</p>
-                        </div>
-                        <div>
-                          <img src="http://placehold.it/350x300?text=2">
-                        </div>
-                        <div>
-                          <img src="http://placehold.it/350x300?text=3">
-                        </div>-->
-
-                </section>
+               
             </nav>
         </header>
         <script src="../js/jquery-3.5.1.min.js" type="text/javascript"></script>
