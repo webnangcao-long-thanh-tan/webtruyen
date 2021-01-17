@@ -28,12 +28,13 @@ include('../model/ket_noi.php');
         if($hinhanh == ''){
             $sqlupdateimage = "update truyen set Ten = '$tentruyen', IdTL = '$tltruyen', LuotXem = '$luotxem', MoTa = '$mota', NgayPost = '$ngaypost' where Id = '$idupdate'";
             
+            
         }
         else{
             move_uploaded_file($hinhanh_tmp, $path.$hinhanh);
             $sqlupdateimage = "update truyen set Ten = '$tentruyen', IdTL = '$tltruyen', HinhAnh = '$hinhanh', LuotXem = '$luotxem', MoTa = '$mota', NgayPost = '$ngaypost' where Id = '$idupdate'";
         }
-        mysqli_query($conn, $sqlupdateimage);
+        $sqlcapnhattruyen = mysqli_query($conn, $sqlupdateimage);
     }
     if(isset($_GET['xoa'])){
         $id = $_GET['xoa'];
@@ -53,10 +54,10 @@ include('../model/ket_noi.php');
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="xulytheloai.php">Thể loại <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="xulytheloai.php">Thể loại</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="xulytruyen.php" style="color:red">Truyện</a>
+            <a class="nav-link" href="xulytruyen.php" style="color:red">Truyện <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
             <a class="nav-link disabled" href="xulykhachhang.php">Khách hàng</a>
@@ -139,7 +140,7 @@ include('../model/ket_noi.php');
                                         <label>Hình ảnh</label>
                     <input type="file" class="form-control" name="hinhanh"><br>
                                         <label>Lượt xem</label>
-                    <input type="text" class="form-control" name="luotxem" placeholder="Giá sản phẩm"><br>
+                    <input type="text" class="form-control" name="luotxem" placeholder="Lượt xem"><br>
                                         <label>Mô tả</label>
                     <textarea class="form-control" name="mota"></textarea><br>
                     <label>Ngày post</label>
@@ -152,7 +153,7 @@ include('../model/ket_noi.php');
             ?>
             
             <div class="col-md-9">
-            <h4>Liệt kê sản phẩm</h4>
+            <h4>Liệt kê Truyện</h4>
             <?php
             $sql_select_truyen=mysqli_query($conn,"select * from truyen,theloai where truyen.IdTL=theloai.Id_TL order by truyen.Id_truyen desc")
             ?>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 11, 2021 at 10:03 AM
+-- Generation Time: Jan 17, 2021 at 05:10 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -128,6 +128,18 @@ CREATE TABLE `thanhvien` (
   `DienThoai` varchar(12) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `thanhvien`
+--
+
+INSERT INTO `thanhvien` (`Id_tv`, `Username`, `Password`, `Email`, `Name`, `DienThoai`) VALUES
+(3, 'longtk', '202cb962ac59075b964b07152d234b70', 'nduclong7@gmail.com', 'duc long', '0902336908'),
+(7, 'duclong', 'd9b1d7db4cd6e70935368a1efb10e377', 'nduclong7@gmail.com', 'nguyenlong', '987654321'),
+(8, 'longnguyen', 'd9b1d7db4cd6e70935368a1efb10e377', 'nduclong7@gmail.com', 'nguyenlong', '12346789'),
+(9, 'longtk123', '14e1b600b1fd579f47433b88e8d85291', 'nduclong8@gmail.com', 'longtk', '1234567890'),
+(10, 'longtkk', 'd9b1d7db4cd6e70935368a1efb10e377', 'nduclong@gmail.com', 'nguyenduclong', '123456789'),
+(11, 'longqwe123', 'd9b1d7db4cd6e70935368a1efb10e377', 'nduclong8@gmail.com', 'longqwe', '123456987');
+
 -- --------------------------------------------------------
 
 --
@@ -144,23 +156,24 @@ CREATE TABLE `theloai` (
 --
 
 INSERT INTO `theloai` (`Id_TL`, `TenTL`) VALUES
-(7, 'Shōnen'),
-(8, 'Shoujo'),
-(9, 'Kodomo'),
-(10, 'Seinen'),
-(11, 'Josei'),
-(12, 'Seijin'),
-(13, 'Thiếu nhi'),
-(14, 'Shoujo-ai'),
-(15, 'Doujinshi'),
-(16, 'Gekiga'),
-(17, 'Horror'),
-(18, 'Martial arts'),
-(19, 'School life'),
-(20, 'Comedy'),
-(21, 'Ecchi'),
-(22, 'Fantasy'),
-(23, 'Adventure');
+(24, '4-koma'),
+(25, 'Action'),
+(26, 'Adventure'),
+(30, 'Chanbara'),
+(31, 'Comedy'),
+(32, 'Demetia'),
+(33, 'Parody'),
+(34, 'Drama'),
+(35, 'Fantasy'),
+(36, 'Gekiga'),
+(37, 'Harry Stu'),
+(38, 'Historical'),
+(39, 'Horror'),
+(40, 'Josei'),
+(41, 'Kodomo'),
+(42, 'Mafia'),
+(43, 'Martial Arts'),
+(44, 'Sci-fi');
 
 -- --------------------------------------------------------
 
@@ -183,7 +196,21 @@ CREATE TABLE `truyen` (
 --
 
 INSERT INTO `truyen` (`Id_truyen`, `Ten`, `IdTL`, `HinhAnh`, `LuotXem`, `MoTa`, `NgayPost`) VALUES
-(5, 'Conan', 7, 'conan.jpg', 1000, 'thám tử lừng danh conan', '2021-08-01');
+(7, 'Conan', 25, 'conan.jpg', 1230, 'CONAN', '2021-01-13'),
+(12, 'Dragon Quest', 26, 'dragonquest.jpg', 900, 'dấu ấn rồng thiêng', '2021-01-02'),
+(14, 'Avenger', 25, 'avenger.jpg', 3000, 'Biệt đội báo thù', '2021-01-03'),
+(16, 'Getbackers', 42, 'getbackers.jpg', 5000, 'Getbackers', '2020-12-20'),
+(18, 'Boruto', 43, 'boruto.jpg', 1000, 'boruto', '2021-01-15'),
+(23, 'Kimetsu no yaiba', 26, 'kimetsu no yaiba.jpg', 6000, 'kimetsu no yaiba', '2021-01-14'),
+(24, 'Justice League', 44, 'justiceleague.jpg', 2000, 'Liên minh công lý', '2021-01-14'),
+(25, 'OnePunch Man', 35, 'onepunchman.jpg', 3000, 'Onepunch Man', '2021-01-14'),
+(26, 'Inuyasha', 35, 'inuyasha.jpg', 900, 'inuyasha', '2021-01-15'),
+(27, 'Attack on Titan', 35, 'attack on titan.jpg', 5000, 'Đại chiến titan', '2020-12-12'),
+(28, 'Hitman', 42, 'hitman.jpg', 3000, 'Hitman', '2020-11-11'),
+(29, 'Shin', 41, 'shin.jpg', 3000, 'Shin cậu bé bút chì', '2021-01-15'),
+(30, 'Gintama', 35, 'gintama.jpg', 1000, 'Gintama', '2020-12-05'),
+(31, 'Hero acamedia', 25, 'heroacamedia.jpg', 2000, 'Học viện anh hùng', '2021-01-15'),
+(32, 'Dragon-ball', 26, 'dragonbal.jpg', 3000, 'Dragonball', '2021-01-15');
 
 --
 -- Indexes for dumped tables
@@ -307,19 +334,19 @@ ALTER TABLE `taptruyen`
 -- AUTO_INCREMENT for table `thanhvien`
 --
 ALTER TABLE `thanhvien`
-  MODIFY `Id_tv` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Id_tv` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `theloai`
 --
 ALTER TABLE `theloai`
-  MODIFY `Id_TL` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `Id_TL` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT for table `truyen`
 --
 ALTER TABLE `truyen`
-  MODIFY `Id_truyen` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `Id_truyen` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
 -- Constraints for dumped tables

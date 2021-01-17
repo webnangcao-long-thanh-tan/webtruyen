@@ -50,71 +50,54 @@ include('../view/header.php') ?>
                     </h3>
                     <hr/>
                     <section class="mainslide slider">
-                        <div class="itemmainslider">
-                            <a href="#"><img src="../images/naruto.jpg" alt="" id="anhleft"/><div class="infohot"><h4>Naruto Shippuden</h4></br>
-                                <p>1562 chaps</p></div>
-                            </div></a>
-                            
-                        </div>
+                        <?php
+                            $sqlselecthot = mysqli_query($conn, "select * from truyen where LuotXem > 999");
+                            while($rowhot = mysqli_fetch_array($sqlselecthot)){
+                                ?>
                         <div class="itemmainslider" >
-                            <a href="#"><img src="https://sachvui.com/cover/2018/one-piece-dao-hai-tac.jpg" alt="" id="anhleft">
-                            <div class="infohot"><h4>OnePeace</h4></br>
-                                <p>2623 chaps</p></div>
+                            <a href="../comic_comic/index.php?idtruyen=<?php echo $rowhot['Id_truyen']; ?>"><img src="../images/<?php echo $rowhot['HinhAnh'];?>" alt="" id="anhleft">
+                            <div class="infohot"><h4><?php echo $rowhot['Ten'];?></h4>
+                                <p><?php echo $rowhot['LuotXem']?> lượt xem</p></div>
                             </a>
                             
                         </div>
-                        <div class="itemmainslider" >
-                            <a href="#"><img src="../images/attack on titan.jpg" alt="" id="anhleft"/>
-                            <div class="infohot"><h4>Attack on titan</h4></br>
-                            <p>785 chaps</p></div>
-                            </a>
-                            
-                        </div>
-                        <div class="itemmainslider" >
-                             <a href="#"><img src="../images/hitman.jpg" alt="" id="anhleft"/><div class="infohot"><h4>Hitman</h4></br>
-                                <p>1003 chaps</p></div></a>
-                            
-                        </div>
-                        <div class="itemmainslider" >
-                            <a href="#"><img src="../images/getbackers.jpg" alt="" id="anhleft"/><div class="infohot"><h4>Getbackers</h4></br>
-                                <p>894 chaps</p></div></a>
-                            
-                        </div>
-                        <div class="itemmainslider" >
-                            <a href="#"><img src="../images/dragonbal.jpg" alt="" id="anhleft"/><div class="infohot"><h4>Dragonball Super</h4></br>
-                                <p>2012 chaps</p></div></a>
-                            
-                        </div> 
-                        <div class="itemmainslider" >
-                            <a href="#"><img src="../images/avenger.jpg" alt="" id="anhleft"/><div class="infohot"><h4>Avenger</h4></br>
-                            <p>951 chaps</p></div></a>
-                            
-                        </div>
-                        <div class="itemmainslider" >
-                            <a href="#"><img src="../images/onepunchman.jpg" alt="" id="anhleft"/><div class="infohot"><h4>One punch man</h4></br>
-                                <p>354 chaps</p></div></a>
-                            
-                        </div>
-                        <div class="itemmainslider" >
-                            <a href="#"><img src="../images/justiceleague.jpg" alt="" id="anhleft"/><div class="infohot"><h4>Justice League</h4></br>
-                                <p>700 chaps</p></div></a>
-                            
-                        </div> 
-                
+                        <?php
+                            }
+                        ?>
+        
+                        
+                       
    
   </section>
-                    
+                   <!--select Ten, DATEDIFF(DATE(NOW()), DATE(truyen.NgayPost)) as ngaytontai from truyen where DATEDIFF(DATE(NOW()), DATE(truyen.NgayPost)) < 8--> 
                     <h3 class="tieudetruyenmoi">
-                        
+                        Truyện Mới
                     </h3>
-                    <div class="tabtruyenmoi">
+                    <hr/>
+                    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4 truyenmoi" style="width: 80%; margin: 0 auto;">
+                        <?php
+                            $sqlselectnew = mysqli_query($conn, "select Id_truyen, Ten, HinhAnh, LuotXem, DATEDIFF(DATE(NOW()), DATE(truyen.NgayPost)) as ngaytontai from truyen where DATEDIFF(DATE(NOW()), DATE(truyen.NgayPost)) < 11");
+                            while($rownew = mysqli_fetch_array($sqlselectnew)){
+                        ?>
+                        <div class="col">
+                            <a href="../comic_comic/index.php?idtruyen=<?php echo $rownew['Id_truyen']?>"><div class="card">
+                                    <img src="../images/<?php echo $rownew['HinhAnh'];?>" class="card-img-top" alt="..." style="height: 300px">
+      <div class="card-body ">
+        <h5 class="card-title"><?php echo $rownew['Ten']?></h5>
+        <p class="card-text"><?php echo $rownew['LuotXem']?> Lượt xem</p>
+      </div>
+                                </div></a></div>
+                        <?php
+                            }
+                        ?>
                         
                     </div>
+                    
                     <script>
                          $(document).ready(function(){
 $(".mainslide").slick({
   slidesToShow: 7,
-  slidesToScroll: 3,
+  slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
       });

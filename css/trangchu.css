@@ -58,7 +58,7 @@ main .slick-prev:before,
    main .slick-current {
       opacity: 1;
     }
-    main .mainslide .infohot{
+.infohot{
         position: absolute;
         bottom: 0;
         background: black;
