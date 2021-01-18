@@ -17,6 +17,10 @@
     <body>
         <?php
         include_once '../model/ket_noi.php';
+        if(isset($_GET['timkiem'])){
+            $_SESSION['tukhoa'] = $_GET['search'];
+            header('location:../comic_comic/search.php?');
+        }
         ?>
         <header>
             <nav class="Nav">
@@ -30,10 +34,10 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Truyện Hot</a>
+                                    <a class="nav-link active" aria-current="page" href="../comic_hot/index.php">Truyện Hot</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Truyện Mới</a>
+                                    <a class="nav-link" href="../comic_new/index.php">Truyện Mới</a>
                                 </li>
                                 <li class="nav-item">
                                     <?php
@@ -58,7 +62,7 @@
                                         $kqtl = mysqli_query($conn, $sqltl);
                                         while (($rows = mysqli_fetch_assoc($kqtl)) != NULL) {
                                             ?>
-                                            <li class="dropdown-item"><a href="../comic_type/index.php"><?php echo $rows['TenTL'] ?></a></li>
+                                            <li class="dropdown-item"><a href="../comic_type/index.php?theloai=<?php echo $rows['Id_TL']?>"><?php echo $rows['TenTL'] ?></a></li>
                                             <?php
                                         }
                                         ?>
@@ -68,9 +72,9 @@
 
 
                             </ul>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            <form class="d-flex" action="#" method="GET">
+                                <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit" name="timkiem">Search</button>
                             </form>
                         </div>
                     </div>
